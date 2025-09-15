@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Sin";
+  src: url("/fonts/sins.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.font-sin {
+  font-family: "Sin", sans-serif;
+}
