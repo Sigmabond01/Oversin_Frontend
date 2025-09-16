@@ -3,10 +3,12 @@ import { ChevronRight, Play, Star, Users, Zap, Download } from 'lucide-react';
 import Navbar from './Navbar.jsx';
 import About from './About.jsx';
 import Features from './Features.jsx';
+import Footer from './Footer.jsx';
+import Highlight from './Highlight.jsx';
 
 export default function OversinHero() {
   return (
-    <div className="absolute inset-0 bg-cover bg-center font-sin tracking-[0.15em] text-xl bg-no-repeat bg-[url(./meli2.webp)]">
+    <div className="absolute inset-0 bg-cover bg-center font-cinzel text-xl bg-no-repeat bg-[url(https://res.cloudinary.com/dcdqkzmfi/image/upload/v1758026583/meli2_covni3.webp)]">
         <div className="absolute inset-0 bg-gradient-to-r from-black/60 via-black/40 to-transparent"></div>
       <div className="relative z-10 flex flex-col min-h-screen">
         <Navbar />
@@ -19,8 +21,7 @@ export default function OversinHero() {
                   <span className="text-red-400 text-sm">Unleash Your Inner Warrior</span>
                 </div>
 
-                <div className=''>
-                <h1 className="text-6xl md:text-6xl lg:text-8xl text-white mb-6 leading-[0.9] tracking-[0.11em]">
+                <h1 className="text-6xl font-sin md:text-6xl lg:text-8xl text-white mb-6 leading-[0.9] tracking-[0.11em]">
                   BREAK YOUR
                   <br />
                   <span className="bg-clip-text text-red-600">
@@ -39,9 +40,7 @@ export default function OversinHero() {
 
                 {/* Buttons */}
                 <div className="flex flex-col sm:flex-row gap-4 mb-10">
-                  
                 </div>
-              </div>
             </div>
           </div>
         </div>
@@ -49,6 +48,8 @@ export default function OversinHero() {
       </div>
       <About />
       <Features />
+      <Highlight />
+      <Footer />
       </div>
     );
 }

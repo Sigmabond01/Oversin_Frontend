@@ -6,9 +6,9 @@ export default function Features() {
     <section className="py-0 min-h-screen bg-black text-gray-300 relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-6">
     <div className="p-8">
-              <div className="text-center">
+              <div className="text-center mb-6">
                 <div className="w-40 h-20 flex items-center justify-center mx-auto mb-6">
-                  <img src='./oversin2.png' />
+                  <img src="https://res.cloudinary.com/dcdqkzmfi/image/upload/v1758026741/oversin2_epheps.png" />
                 </div>
                 <p className="text-gray-300">
                   Discipline over motivation. Progress over perfection. 

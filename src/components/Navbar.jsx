@@ -2,11 +2,11 @@ import { ChevronRight, Play, Star, Users, Download, LogIn, LogsIcon } from "luci
 
 export default function Navbar() {
   return (
-    <nav className="flex items-center justify-between font-sin tracking-[0.15em] text-xl p-6 md:p-0 mr-6">
+    <nav className="flex items-center justify-between font-cinzel text-xl p-6 md:p-0 mr-6">
       <div className="flex items-center">
         <div className="w-30 h-30 relative ml-6 mt-4">
           <img
-            src="oversin2.png"
+            src="https://res.cloudinary.com/dcdqkzmfi/image/upload/v1758026741/oversin2_epheps.png"
             alt="Oversin Logo"
             fill
             className="object-contain"
