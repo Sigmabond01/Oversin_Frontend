@@ -1,10 +1,9 @@
-import React from 'react';
-import { ChevronRight, Play, Star, Users, Zap, Download } from 'lucide-react';
-import Navbar from './Navbar.jsx';
-import About from './About.jsx';
-import Features from './Features.jsx';
-import Footer from './Footer.jsx';
-import Highlight from './Highlight.jsx';
+import { Star} from 'lucide-react';
+import Navbar from '../components/Navbar.jsx';
+import About from '../components/About.jsx';
+import Features from '../components/Features.jsx';
+import Footer from '../components/Footer.jsx';
+import Highlight from '../components/Highlight.jsx';
 
 export default function OversinHero() {
   return (
@@ -36,10 +35,6 @@ export default function OversinHero() {
                   Intense workouts, disciplined nutrition, unbreakable mindset.
                 </p>
                 </div>
-                </div>
-
-                {/* Buttons */}
-                <div className="flex flex-col sm:flex-row gap-4 mb-10">
                 </div>
             </div>
           </div>

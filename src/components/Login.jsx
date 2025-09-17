@@ -18,7 +18,7 @@ export default function Login() {
     e.preventDefault();
     setError("");
     if (formData.password.length < 6) {
-      setError("⚔️ Cipher must be at least 6 runes long!");
+      setError("Password must be at least 6 characters!");
       return;
     }
     try {
@@ -27,7 +27,7 @@ export default function Login() {
       setToken(res.data.token);
       navigate("/");
     } catch (err) {
-      setError(err.response?.data?.message || "❌ Initiation failed. Try again, warrior.");
+      setError(err.response?.data?.message || "Initiation failed. Try again.");
     } finally {
       setLoading(false);
     }

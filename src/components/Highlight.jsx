@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { CheckCircle, Users, ArrowRight } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 export default function FitnessProgram() {
   const [hovered, setHovered] = useState(false);
@@ -94,6 +95,7 @@ export default function FitnessProgram() {
             </div>
 
             <div className="pt-4">
+              <Link to='/register'>
               <button
                 onMouseEnter={() => setHovered(true)}
                 onMouseLeave={() => setHovered(false)}
@@ -107,6 +109,7 @@ export default function FitnessProgram() {
                 />
                 <div className="absolute inset-0 bg-red-900 transform translate-x-full group-hover:translate-x-0 transition-transform duration-300"></div>
               </button>
+              </Link>
             </div>
           </div>
         </div>
