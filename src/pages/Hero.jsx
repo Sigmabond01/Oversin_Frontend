@@ -7,7 +7,7 @@ import Highlight from '../components/Highlight.jsx';
 
 export default function OversinHero() {
   return (
-    <div className="absolute inset-0 bg-cover bg-center font-cinzel text-xl bg-no-repeat bg-[url(https://res.cloudinary.com/dcdqkzmfi/image/upload/v1758026583/meli2_covni3.webp)]">
+    <div className="absolute inset-0 bg-cover bg-center font-cinzel text-xl bg-no-repeat bg-[url(https://res.cloudinary.com/dcdqkzmfi/image/upload/v1758330374/meliodas_baittq.webp)]">
         <div className="absolute inset-0 bg-gradient-to-r from-black/60 via-black/40 to-transparent"></div>
       <div className="relative z-10 flex flex-col min-h-screen">
         <Navbar />

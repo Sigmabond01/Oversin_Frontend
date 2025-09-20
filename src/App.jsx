@@ -7,6 +7,8 @@ import Dashboard from './pages/DashBoard.jsx';
 import LogWorkout from './components/LogWorkout.jsx';
 import LogSin from './components/LogSin.jsx';
 import Leaderboard from './pages/Leaderboard.jsx';
+import Workouts from './pages/Workouts.jsx';
+import Calories from './pages/Calories.jsx';
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
         <Route path='/log-workout' element={<LogWorkout />} />
         <Route path='/log-sin' element={<LogSin />}/>
         <Route path='/leaderboard' element={<Leaderboard />} />
+        <Route path='/workouts' element={<Workouts />} />
+        <Route path='/calories' element={<Calories />} />
       </Routes>
   );
 }

@@ -30,6 +30,8 @@ export default function Navbar() {
           <>
             <Link to="/dashboard" className="hover:text-red-400 transition-colors">Dashboard</Link>
             <Link to="/leaderboard" className="hover:text-red-400 transition-colors">Leaderboard</Link>
+            <Link to="/workouts" className="hover:text-red-400 transition-colors">Workouts</Link>
+            <Link to="/calories" className="hover:text-red-400 transition-colors">Calories</Link>
           </>
         ) : (
           <>

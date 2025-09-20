@@ -3,6 +3,7 @@ import { useAuthStore } from "../store/authStore";
 import api from "../api/api";
 import { Link } from "react-router-dom";
 import { ActivityIcon, ActivitySquare, AwardIcon, Clock11, EyeIcon, FlameIcon, FlameKindling, Icon, TargetIcon } from "lucide-react";
+import { BiFoodMenu } from "react-icons/bi";
 
 
 export default function Dashboard() {
@@ -62,7 +63,7 @@ export default function Dashboard() {
   };
 
   return (
-    <div className="bg-gradient-to-t from-red-950/100 to-black min-h-screen w-full absolute inset-0">
+    <div className="bg-gradient-to-t from-red-950/100 to-black min-h-screen w-full absolute inset-0 overflow-auto">
       <div className="bg-gradient-to-t from-red-950/20 to-black border-b border-red-900/30 p-8">
         <div className="max-w-7xl mx-auto ml-auto">
           <div className="flex items-center justify-between">
@@ -110,11 +111,11 @@ export default function Dashboard() {
 
           <div className="bg-gradient-to-t from-red-950/50 to-black border border-red-800/50 rounded-lg p-6 hover:border-red-600/70 transition-all duration-300 group">
             <div className="flex items-center justify-between mb-4">
-              <h3 className="text-xl text-red-400">Workouts</h3>
+              <h3 className="text-xl text-red-400">Net calories</h3>
               <ActivitySquare className="w-6 h-6 text-red-500 group-hover:text-red-400 transition-colors" />
             </div>
-            <p className="text-4xl font-bold text-white mb-2"> {user.workoutCount || 0} </p>
-            <p className="text-red-300 text-sm">Sessions completed</p>
+            <p className={`text-6xl font-bold mt-2 mb-2 ${user.netCalories >= 0 ? 'text-red-600' : 'text-red-600'}`}>{user.netCalories} </p>
+            <p className="text-red-300 text-sm">Intake: {user.dailyIntake} | Burned: {user.dailyExpenditure}</p>
           </div>
 
           <div className="bg-gradient-to-t from-red-950/50 to-black border border-red-800/50 rounded-lg p-6 hover:border-red-600/70 transition-all duration-300 group">
@@ -129,11 +130,17 @@ export default function Dashboard() {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 font-cinzel md:grid-cols-2 gap-6 mb-8">
+        <div className="grid grid-cols-1 font-cinzel md:grid-cols-3 gap-6 mb-8">
           <Link to="/log-workout" className="group bg-black/80 border-2 border-red-600 hover:border-red-500 rounded-lg p-8 text-center transition-all duration-300 transform hover:scale-105">
             <ActivityIcon className="w-12 h-12 text-red-500 mx-auto mb-4 group-hover:scale-110 transition-transform" />
             <h3 className="text-2xl text-white mb-2 tracking-wide">Log Workout</h3>
             <p className="text-red-200">Forge your body through suffering</p>
+          </Link>
+
+          <Link to="/calories" className="group bg-black/80 border-2 border-red-600 hover:border-red-500 rounded-lg p-8 text-center transition-all duration-300 transform hover:scale-105">
+            <BiFoodMenu className="w-12 h-12 text-red-500 mx-auto mb-4 group-hover:scale-110 transition-transform" />
+            <h3 className="text-2xl text-white mb-2 tracking-wide">Track Calories</h3>
+            <p className="text-red-300">Know what you eat</p>
           </Link>
 
           <Link to="/log-sin" className="group bg-black/80 border-2 border-red-600 hover:border-red-500 rounded-lg p-8 text-center transition-all duration-300 transform hover:scale-105">
@@ -148,7 +155,7 @@ export default function Dashboard() {
             <h2 className="font-display text-2xl text-white tracking-wide">Recent Workouts</h2>
             <ul className="mt-4 spcae-y-2">
               {workouts.length > 0 ? workouts.map(w => (
-                <li key={w._id} className="p-3 bg-white/40 border border-red-600">
+                <li key={w._id} className="p-3 bg-white/30 border border-red-600">
                   <span className="font-bold">{w.type}: </span> {w.description} ({w.duration} mins)
                 </li>
               )): <p>No workouts logged. Get to it.</p>}
@@ -159,8 +166,8 @@ export default function Dashboard() {
             <h2 className="font-display text-2xl text-white tracking-wide">Recent Sins</h2>
             <ul className="mt-4 spcae-y-2">
               {sins.length > 0 ? sins.map(s => (
-                <li key={s._id} className="p-3 bg-white/40 border border-red-600">
-                  <span className="font-bold text-red-900">Severity {s.severity}: </span> {s.reason}
+                <li key={s._id} className="p-3 bg-white/30 border border-red-600">
+                  <span className="font-bold">Severity {s.severity}: </span> {s.reason}
                 </li>
               )): <p>No sins confessed. Are you a saint or a liar?</p>}
             </ul>

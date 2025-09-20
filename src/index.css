@@ -8,22 +8,8 @@
 }
 
 @font-face {
-  font-family: "Goth";
-  src: url("/fonts/goth.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
   font-family: "Cinzel";
   src: url("/fonts/Cinzel.otf") format("opentype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Germ";
-  src: url("/fonts/germ.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
 }
@@ -32,14 +18,6 @@
   font-family: "Sin", sans-serif;
 }
 
-.font-goth {
-  font-family: "Goth";
-}
-
 .font-cinzel {
   font-family: "Cinzel";
-}
-
-.font-germ {
-  font-family: "Germ";
 }
