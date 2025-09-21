@@ -1,0 +1,186 @@
+{
+  "sins": {
+    "pride": [
+      {
+        "id": "pride_01",
+        "name": "Hubris",
+        "category": "Pride",
+        "gif_url": "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZXo1bXlpZDk5ZjFjZTcyYWZiM3QwdGJyOHo3aDF4Y3MwZHJvbWU4dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/COfLCmoShM6FG/giphy.gif",
+        "description1": "Possessing an excessive and dangerous overconfidence.",
+        "description2": "Ignoring warnings and believing you are infallible."
+      },
+      {
+        "id": "pride_02",
+        "name": "Vanity",
+        "category": "Pride",
+        "gif_url": "https://media1.tenor.com/m/tWMsDBAqRsAAAAAd/devils-advocate-vanity.gif",
+        "description1": "An excessive belief in one's own attractiveness to others.",
+        "description2": "Constantly seeking admiration for one's appearance."
+      },
+      {
+        "id": "pride_03",
+        "name": "Arrogance",
+        "category": "Pride",
+        "gif_url": "https://media1.tenor.com/m/fFh9cAWvHBAAAAAC/arrogance-arrogant.gif",
+        "description1": "An insulting way of thinking you are better or more important.",
+        "description2": "Dismissing the opinions and feelings of others as inferior."
+      }
+    ],
+    "greed": [
+      {
+        "id": "greed_01",
+        "name": "Avarice",
+        "category": "Greed",
+        "gif_url": "https://media.tenor.com/yC_artIXtl0AAAAi/coin-coins.gif",
+        "description1": "An insatiable desire for wealth and material gain.",
+        "description2": "Hoarding possessions and money for their own sake."
+      },
+      {
+        "id": "greed_02",
+        "name": "Exploitation",
+        "category": "Greed",
+        "gif_url": "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExOTZ3b3RocGloM2F0Z3RmZDVtbHF2Nm03OXN5OW9sbWdzOHRmZXA0aCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/KCpixDepp1pdtlVio6/giphy.gif",
+        "description1": "Using others unfairly for your own profit or benefit.",
+        "description2": "Prioritizing financial gain over human well-being."
+      },
+      {
+        "id": "greed_03",
+        "name": "Corruption",
+        "category": "Greed",
+        "gif_url": "https://media.tenor.com/2obi6Yd3hI8AAAAi/corruption-stop-it.gif",
+        "description1": "Dishonest conduct by those in power for personal gain.",
+        "description2": "Accepting bribes or abusing public trust for money."
+      }
+    ],
+    "lust": [
+      {
+        "id": "lust_01",
+        "name": "Objectification",
+        "category": "Lust",
+        "gif_url": "https://media.giphy.com/media/8UGoP1BQS1mIo/giphy.gif",
+        "description1": "An intense and uncontrolled desire for physical pleasure.",
+        "description2": "Viewing others as objects for sexual gratification."
+      },
+      {
+        "id": "lust_02",
+        "name": "Infidelity",
+        "category": "Lust",
+        "gif_url": "https://media.giphy.com/media/9J7tdYltWyXIY/giphy.gif",
+        "description1": "Being unfaithful to a spouse or romantic partner.",
+        "description2": "Breaking a commitment of loyalty for physical desire."
+      },
+      {
+        "id": "lust_03",
+        "name": "Debauchery",
+        "category": "Lust",
+        "gif_url": "https://media.giphy.com/media/13borq7Zo2kulO/giphy.gif",
+        "description1": "Excessive indulgence in sensual pleasures.",
+        "description2": "A lifestyle of extreme and immoral self-indulgence."
+      }
+    ],
+    "envy": [
+      {
+        "id": "envy_01",
+        "name": "Jealousy",
+        "category": "Envy",
+        "gif_url": "https://media.giphy.com/media/l4FGuhL4U2WyjdkaY/giphy.gif",
+        "description1": "Feeling discontent over someone else's possessions or success.",
+        "description2": "Wanting what others have and resenting them for it."
+      },
+      {
+        "id": "envy_02",
+        "name": "Schadenfreude",
+        "category": "Envy",
+        "gif_url": "https://media.giphy.com/media/l2JHPBqNMR6eT7l8I/giphy.gif",
+        "description1": "Taking pleasure in the misfortune of others.",
+        "description2": "Secretly celebrating when a rival fails or suffers."
+      },
+      {
+        "id": "envy_03",
+        "name": "Backbiting",
+        "category": "Envy",
+        "gif_url": "https://media.giphy.com/media/5GoVLqeAOo6PK/giphy.gif",
+        "description1": "Spreading malicious gossip about someone out of resentment.",
+        "description2": "Attempting to ruin a rival's reputation behind their back."
+      }
+    ],
+    "gluttony": [
+      {
+        "id": "gluttony_01",
+        "name": "Overconsumption",
+        "category": "Gluttony",
+        "gif_url": "https://media.giphy.com/media/26AHONQ79FdWZhAI0/giphy.gif",
+        "description1": "The act of consuming more than one needs.",
+        "description2": "Eating or drinking to the point of waste and physical harm."
+      },
+      {
+        "id": "gluttony_02",
+        "name": "Wastefulness",
+        "category": "Gluttony",
+        "gif_url": "https://media.giphy.com/media/3ohhwMDyS6rv3sB5Di/giphy.gif",
+        "description1": "Being excessively picky or extravagant with resources.",
+        "description2": "Discarding good food or resources due to fussiness."
+      },
+      {
+        "id": "gluttony_03",
+        "name": "Intoxication",
+        "category": "Gluttony",
+        "gif_url": "https://media.giphy.com/media/xUOwG8xuCVIo6aD9oA/giphy.gif",
+        "description1": "Deliberately consuming substances to the point of losing control.",
+        "description2": "Seeking drunkenness or impairment for its own sake."
+      }
+    ],
+    "wrath": [
+      {
+        "id": "wrath_01",
+        "name": "Rage",
+        "category": "Wrath",
+        "gif_url": "https://media.giphy.com/media/26gslU06cP0xT7xH6/giphy.gif",
+        "description1": "Inordinate and uncontrolled feelings of anger and hatred.",
+        "description2": "Lashing out violently at others through words or actions."
+      },
+      {
+        "id": "wrath_02",
+        "name": "Vengeance",
+        "category": "Wrath",
+        "gif_url": "https://media.giphy.com/media/VbnUQpnihPSIgIXuZv/giphy.gif",
+        "description1": "The passionate desire to seek retribution or revenge.",
+        "description2": "Refusing to forgive and instead pursuing punishment."
+      },
+      {
+        "id": "wrath_03",
+        "name": "Resentment",
+        "category": "Wrath",
+        "gif_url": "https://media.giphy.com/media/fxsqOYnIMEefC/giphy.gif",
+        "description1": "Holding onto anger and bitterness over a past wrong.",
+        "description2": "Allowing a grudge to fester and poison one's thoughts."
+      }
+    ],
+    "sloth": [
+      {
+        "id": "sloth_01",
+        "name": "Apathy",
+        "category": "Sloth",
+        "gif_url": "https://media.giphy.com/media/l3q2wJsC23ikJg9xe/giphy.gif",
+        "description1": "The avoidance of physical or spiritual work.",
+        "description2": "Neglecting one's duties and responsibilities out of listlessness."
+      },
+      {
+        "id": "sloth_02",
+        "name": "Procrastination",
+        "category": "Sloth",
+        "gif_url": "https://media.giphy.com/media/3orieUe6ejxSFxYCXe/giphy.gif",
+        "description1": "The habitual act of delaying or postponing tasks.",
+        "description2": "Consistently putting off important duties until the last minute."
+      },
+      {
+        "id": "sloth_03",
+        "name": "Idleness",
+        "category": "Sloth",
+        "gif_url": "https://media.giphy.com/media/12XMGIWtrHBl5e/giphy.gif",
+        "description1": "A state of inaction and laziness.",
+        "description2": "Spending excessive time in unproductive, leisurely activities."
+      }
+    ]
+  }
+}

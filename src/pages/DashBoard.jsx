@@ -4,6 +4,7 @@ import api from "../api/api";
 import { Link } from "react-router-dom";
 import { ActivityIcon, ActivitySquare, AwardIcon, Clock11, EyeIcon, FlameIcon, FlameKindling, Icon, TargetIcon } from "lucide-react";
 import { BiFoodMenu } from "react-icons/bi";
+import Navbar2 from "../components/Navbar2";
 
 
 export default function Dashboard() {
@@ -64,12 +65,14 @@ export default function Dashboard() {
 
   return (
     <div className="bg-gradient-to-t from-red-950/100 to-black min-h-screen w-full absolute inset-0 overflow-auto">
+      <div className="z-10">
+      <Navbar2 />
+      <div className="bg-gradient-to-t from-red-950/20 to-black border-b border-red-900/30"></div>
       <div className="bg-gradient-to-t from-red-950/20 to-black border-b border-red-900/30 p-8">
         <div className="max-w-7xl mx-auto ml-auto">
           <div className="flex items-center justify-between">
             <div>
               <h1 className="text-5xl text-white font-cinzel tracking-wide mb-2">
-               <img src="./oversin.png" className="inline w-20 h-20" />
                Welcome, <span className="text-red-500">{user.username}</span>
               </h1>
               <p className="text-gray-400 text-lg flex items-center">
@@ -173,6 +176,7 @@ export default function Dashboard() {
             </ul>
           </div>
         </div>
+      </div>
       </div>
     </div>
   );

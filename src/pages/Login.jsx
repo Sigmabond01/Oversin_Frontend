@@ -13,7 +13,7 @@ export default function Login() {
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
-  
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     setError("");
@@ -25,7 +25,7 @@ export default function Login() {
       setLoading(true);
       const res = await api.post("/auth/login", formData);
       setToken(res.data.token);
-      navigate("/");
+      navigate("/dashboard");
     } catch (err) {
       setError(err.response?.data?.message || "Initiation failed. Try again.");
     } finally {
