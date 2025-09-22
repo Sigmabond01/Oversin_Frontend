@@ -15,7 +15,7 @@ export default function Navbar2() {
   return (
     <nav className="flex items-center justify-between font-cinzel text-xl p-6 md:p-0 mr-6">
       <div className="flex items-center">
-        <div className="w-20 h-20 ml-7 relative mt-4">
+        <div className="w-20 h-20 ml-7 relative mt-2">
           <Link>
             <img
               src="https://res.cloudinary.com/dcdqkzmfi/image/upload/v1758026741/oversin2_epheps.png"
