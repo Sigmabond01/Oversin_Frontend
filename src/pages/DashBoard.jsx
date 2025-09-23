@@ -160,7 +160,7 @@ export default function Dashboard() {
                 <li key={w._id} className="p-3 bg-white/30 border border-red-600">
                   <span className="font-bold">{w.type}: </span> {w.description} ({w.duration} mins)
                 </li>
-              )): <p>No workouts logged. Get to it.</p>}
+              )): <p className="font-bold text-red-300">No workouts logged. Get to it.</p>}
             </ul>
           </div>
           
@@ -171,7 +171,7 @@ export default function Dashboard() {
                 <li key={s._id} className="p-3 bg-white/30 border border-red-600">
                   <span className="font-bold">Severity {s.severity}: </span> {s.reason}
                 </li>
-              )): <p>No sins confessed. Are you a saint or a liar?</p>}
+              )): <p className="font-bold text-red-300">No sins confessed. Are you a saint or a liar?</p>}
             </ul>
           </div>
         </div>

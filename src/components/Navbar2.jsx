@@ -29,6 +29,7 @@ export default function Navbar2() {
       <div className="flex flex-col md:flex-row md:ml-28 space-y-2 md:space-y-0 md:space-x-8 text-white/90 text-center md:text-left">
             <Link to="/workouts" className="hover:text-red-400 transition-colors">Workouts</Link>
             <Link to="/sins" className="hover:text-red-400 transition-colors">Sins</Link>
+            <Link to="/calories" className="hover:text-red-400 transition-colors">Calories</Link>
             <Link to="/leaderboard" className="hover:text-red-400 transition-colors">Leaderboard</Link>
       </div>
 

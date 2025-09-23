@@ -25,7 +25,7 @@ export default function Register() {
       setLoading(true);
       const res = await api.post("/auth/register", formData);
       setToken(res.data.token);
-      navigate("/workouts");
+      navigate("/dashboard");
     } catch (err) {
       setError(err.response?.data?.message || "Initiation failed. Try again.");
     } finally {
