@@ -33,7 +33,7 @@ export default function Leaderboard() {
         if (rank === 3) return "bg-gradient-to-r from-yellow-700 to-yellow-500 text-black";
     }
 
-    if(loading) return <div className="text-center bg-gradient-to-t from-red-950/100 to-black min-h-screen overflow-auto absolute inset-0 text-7xl font-cinzel mt-10">Showing Ranks...</div>
+    if(loading) return <div className="text-center bg-gradient-to-t from-red-950/100 to-black min-h-screen overflow-auto absolute inset-0 text-7xl font-cinzel text-red-500">Showing Ranks...</div>
 
     return (
         <div className="bg-gradient-to-t from-red-950/100 to-black min-h-screen overflow-auto absolute inset-0 py-12 px-4">
