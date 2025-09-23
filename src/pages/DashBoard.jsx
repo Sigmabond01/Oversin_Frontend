@@ -42,9 +42,8 @@ export default function Dashboard() {
     fetchUser();
   }, [setUser]);
 
-  //add loader comp later
   if(!user) {
-    return <div className="text-center mt-10 text-6xl text-red-600">Loading your records...</div>
+    return <div className="text-center bg-gradient-to-t from-red-950/100 to-black min-h-screen w-full absolute inset-0 overflow-auto font-cinzel  mt-10 text-6xl text-red-600">Loading your records...</div>
   };
 
   const getStreakMessage = (streak) => {
